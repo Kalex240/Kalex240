@@ -1,0 +1,130 @@
+/*selectores: los selectores se escriben dentro de la etiqueta de apertura
+id="nombre de la id"
+class:"tipo de id, que puede tener varios id"
+
+elejemplos:
+<h1 id="titulo">este es mi titulo</h1>
+
+<h2 class="texto parrafo comentario">este es un gran parrafo</h2>
+
+en la carpeta de estilos.css se llama a una (id con #) y a (class con .)
+*/
+/*tipos de bordes:
+
+se aplican con >  border: (grosor del elementos) (color) (estilos);
+-el grosor del borde se define en:  px
+-los colores se pueden aplicar con: (rgb/rgba) o con valores hexadecimales (#000/#000000)
+-los estilos de los bordes son: (dotten, dashed, solid, double, groove, ridge, inste, outset, none, hidden)
+
+ejemplos:
+border: 10px #ff0 solid;
+border: 25px #9900ff outdet;
+
+propiedades:
+border-style:  <  sirve para seleccionar unicamente el estilo del borde
+border-color:  <  srive para seleccionar unicamente el color del borde
+border-radius: <  srive para darle esquinas redondas al borde en px
+border-white: <  sirve para modificar el ancho del borde en px
+border-etc...
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/fondo.jpg);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}   
+
+header{
+    position: relative;
+    width: 100%;
+}
+
+#ENCABEZADO{
+    background-color: darkviolet;
+    height: 224;
+}
+
+#IMGENCABEZADO{
+    width: 25%;
+    height: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:  inline-start;
+    transition: 3s;
+    margin: 0;
+}
+
+#TITULO{
+    width: 75%;
+    height:80px;
+    float: inline-end;
+    text-align:center;
+    background-color: darkviolet;
+    margin: 0;
+}
+
+#PRESENTACION_AUTORES{
+    width: 75%;
+    height: 103px;
+    float: inline-end;
+    text-align: center;
+    background-color: darkviolet;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background: rgb(136, 2, 136);
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    float: none;
+    text-align: center;
+}
+
+nav ul li a{
+    height:20px;
+    color:white;
+    font-size: 100%;
+    text-decoration: none;
+    transition: .3s;
+    float: left;
+}
+H1{
+    padding-top: 30PX;
+}
+
+H2{
+    margin: 0;
+}
+H3{
+    border-top:25px #000 solid;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0)
+}
+
+hr{
+    border-color:black;
+    margin:0;
+}
+
+p{
+    color: white;
+}
+
+summary{
+    color: white;
+}
+
+main{
+    background: rgb(0,0,0)
+}
