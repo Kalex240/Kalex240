@@ -214,13 +214,14 @@ section {
     margin: 10px 0;
     border-radius: 10px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .Subtitulo1 {
     color: #000;
     background-color: white;
     border: 0;
+    font-size: 20PX;
 }
 
 .Subtitulo2 {
@@ -228,12 +229,12 @@ section {
 }
 
 .Parrafo1 {
-    font-size: 25px;
+    font-size: 20px;
     color: #000;
 }
 
 .Parrafo2 {
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     color: #000;
 }
@@ -256,6 +257,93 @@ section {
     text-align: center;
 }
 
+#img_encuesta1{
+    width: 500px; 
+}
+
+#img_encuesta2{
+    width: 500px; 
+}
+
+#img_encuesta3{
+    width: 500px; 
+}
+
+#img_encuesta4{
+    width: 500px; 
+}
+
+#img_encuesta5{
+    width: 500px; 
+}
+
+#img_encuesta6{
+    width: 500px; 
+}
+
+#img_encuesta7{
+    width: 500px; 
+}
+
+#img_encuesta8{
+    width: 500px; 
+}
+
+#img_encuesta9{
+    width: 500px; 
+}
+
+#img_encuesta10{
+    width: 500px; 
+}
+
+#img_encuesta11{
+    width: 500px; 
+}
+
+#img_encuesta12{
+    width: 500px; 
+}
+
+#img_encuesta13{
+    width: 500px; 
+}
+
+#img_proyecto1{
+    width: 400px; 
+    margin-left: 400px;
+}
+
+#img_proyecto2{
+    width: 400px; 
+    margin-left: 400px;
+}
+
+#img_proyecto3{
+    width: 400px; 
+    margin-left: 400px;
+}
+
+#img_proyecto4{
+    width: 400px; 
+    margin-left: 400px;
+}
+
+#img_proyecto5{
+    width: 400px; 
+    margin-left: 400px;
+}
+
+#img_proyecto6{
+    width: 600px; 
+    margin-left: 350px;
+}
+
+#img_ing1{
+    width: 600px; 
+    margin-left: 310px;
+}
+
 button {
     background-color: #4ae26b;
     color: #fff;
@@ -269,4 +357,28 @@ button {
 
 button:hover {
     background-color: #000;
+}
+
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+footer .footer-text{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background:darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+}
+
+footer .footer-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
 }
