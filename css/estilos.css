@@ -238,12 +238,22 @@ section {
     color: #000;
 }
 
+.Parrafo3{
+    font-size: 25px;
+    text-align: center;
+    color:#000;
+}
+
 .img_proyecto{
     text-align: center;
 }
 
 .img_encuesta{
-    
+    text-align: center;
+}
+
+.img_diagrama_de_pez{
+    text-align: center;
 }
 
 button {
