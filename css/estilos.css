@@ -30,7 +30,7 @@ border-etc...
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/fondo.jpg);
+    background: #000;;
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -111,7 +111,16 @@ H1{
 
 H2{
     margin: 0;
+    color: #000;
+    font-size: 40px;
 }
+
+#PRESENTACION_AUTORES{
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
+
 H3{
     border-top:25px #000 solid;
     margin: 0%;
@@ -135,4 +144,119 @@ summary{
 
 main{
     background: rgb(0,0,0)
+}
+
+#img_glosario{
+    width: 35%;
+    text-align: center;
+}
+
+#barra_navegacion{
+    text-align: center;
+}
+
+#formulario{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/fondo.jpg);
+    color: white;
+}
+
+form{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/fondo.jpg);
+    color: white;
+}
+
+#tabla-contenidos {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 20px #000;
+}
+
+#tabla-contenidos h2 {
+    color: #000;
+    font-size: 50px;
+}
+
+#tabla-contenidos ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+#tabla-contenidos ul li {
+    margin: 8px 0;
+}
+
+#tabla-contenidos ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e2f0d9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Titulo1 {
+    color: #000;
+}
+
+.SubCapituloTema {
+    background-color: #d9e2f0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.Subtitulo1 {
+    color: #000;
+    background-color: white;
+    border: 0;
+}
+
+.Subtitulo2 {
+    color: #b26a3c;
+}
+
+.Parrafo1 {
+    font-size: 25px;
+    color: #000;
+}
+
+.Parrafo2 {
+    font-size: 25px;
+    font-style: italic;
+    color: #000;
+}
+
+.img_proyecto{
+    text-align: center;
+}
+
+.img_encuesta{
+    
+}
+
+button {
+    background-color: #4ae26b;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #000;
 }

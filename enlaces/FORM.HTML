@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagina WEB de mi glosario personal, correspondiente a la asignatura de fundamentos de ingeniería">
+        <meta name="keywords" content="Glosario,fundamentos electronica, algebra lineal, matematicas discretas, Ingeniería, Sistemas, Unicoc">
+        <title>FORMULARIO</title>
+        <link rel="icon" href="../img/walle.jpg" type="image/png" sizes="20x20"> 
+        <link rel="stylesheet" href="../css/estilos.css">
+        <script type="text/javascript" src="../js/funciones_validacion.js"></script>
+    </head>
+    <body>
+        <header >
+            <img id="IMGENCABEZADO" src="../img/img_inicio/img4.jpg" alt="image_del_encabezado" title="image_del_encabezado">
+            <h1 id="TITULO">DE LA INGENIERIA MECATRONICA A NUESTRAS MANOS</h1>
+            <div id="PRESENTACION_AUTORES">
+                <h2>Por: KEVIN ALEXANDER CARO GARZON <br>Y JUAN DAVID RONCANCIO DIVANTOQUE</h2>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li id="PROYECTO"><a href="../index.html" title="PAGINA DE DEL PROYECTO">PROYECTO</a></li>
+                <li id="GFI"><a href="GFI.HTML" title="GLOSARIO DE FUNDAMENTOS DE INGENIERIA">FUNDAMENTOS DE INGENIERIA</a></li>
+                <li id="GPSA"><a href="GPSA.HTML" title="GLOSARIO DE PENSAMIENTO SISTEMICO Y AUTOMATIZACION">PENSAMIENTO SISTEMICO Y AUTOMATIZACION</a</li>
+                <li id="GPA"><a href="GPA.HTML" title="GLOSARIO DE PENSAMIENTO ALGORITMICO">PENSAMIENTO ALGORITMICO</a></li>
+                <li id="FORM"><a href="FORM.HTML" title="FORMULARIO PAGUINA WEB">CONTACTANOS</a></li>
+            </ul>
+        </nav>
+        <hr>
+<h2 id="formulario">CONTACTANOS</h2>
+<hr> 
+<form name="miniformulario" class="formulario" method="get" onsubmit="return validarDatos()" action="pagina2.php">
+    
+    <label for="nombre">Nombre</label>   
+    <input type="text" id="nombre" name="nombre" placeholder="ingrese el Nombre..."/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+    
+    <label for="apellido">Apellidos</label>
+    <input type="text" id="apellido" name="apellido" placeholder="ingrese el Apellido..."/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+    
+    <label for="edad">edad</label>
+    <input type="text" id="edad" name="edad" placeholder="edad..."/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+    
+    <label for="fecha">fecha nacimiento</label>
+    <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa"/><img width="20" height="20"  style='visibility: hidden;' /><br/>
+    
+    <label style='display: inline;'>Género:</label>
+    <img id="img_valida_genero" width="20" height="20"  style='visibility: hidden;' />
+    <ul id="generos">
+        <li>
+        <input type="radio" id="genF" name="genero" value="F" /> 
+        <label for="genF" style='display: inline;' >Femenino</label> 
+        </li>
+        <li>
+            <input type="radio" id="genM"  name="genero" value="M" />
+            <label for="genM" style='display: inline;' >Masculino</label>
+        </li>
+        <li>
+            <input type="radio" id="genO"  name="genero" value="O" />
+            <label for="genO" style='display: inline;' >Otro</label>
+        </li>
+    </ul>
+    
+    <label for="email">Correo electronico</label>
+    <input type="text" id="email" name="email" placeholder="ej.. nombre@dominio.ext"/><img width="20" height="20"  style='visibility: hidden;' /><br/><br/>
+    
+    <label for="telefono">Númeo telefónico</label>
+    <input type="text" id="telefono" name="telefono" placeholder="mínimo 7 dígitos"/><img width="20" height="20"  style='visibility: hidden;' /><br/><br/>
+    
+    <label style='display: inline;'>Tipo de Teléfono:</label>
+    <select name="tipo_telefono" id="tipo_telefono">    
+        <option hidden selected>Selecciona una opción</option>
+        <option value="1">Celular</option>
+        <option value="2">Casa</option>
+        <option value="3">Trabajo</option>
+        <option value="9">Otro</option>
+    </select>
+    <img id="img_valida_tipo_telefono" width="20" height="20"  style='visibility: hidden;' /><br/><br/> 
+    
+    <label style='display: inline;'>Mensaje, comentarios y sugerencias:</label>
+    <img id="img_valida_mensaje" width="20" height="20"  style='visibility: hidden;' /><br/>
+    <textarea rows='6' cols='80' id="mensaje" name="mensaje" placeholder="Escribanos su mensaje (máximo 1000 caracteres)" ></textarea>
+    <br/><br/>
+    
+    <hr> 
+    <input type="checkbox" name="autoriza_tratamiento_datos" value="autorizado" />
+    Autorizo el tratamiento de mis datos para contacto 
+    <img id="img_valida_Autorizacion_tratamiento_datos"  width="20" height="20"  style='visibility: hidden;' /><br/><br/>
+    <hr>       
+    <input type="submit"  value="Enviar" />
+    <! input type="reset" value="Reiniciar datos" />   
+    <input type="button" value="Reiniciar datos" onclick="resetearDatos()">
+</form>
+</body>
+
+</html>

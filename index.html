@@ -3,28 +3,169 @@
      
      <head>
           <meta charset="utf-8"> 
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
           <meta name="description" content="Pagina WEB de mi glosario personal, correspondiente a la asignatura de Sistemas Operativos, ingeniería de sistemas, UNICOC">
           <meta name="keywords" content="Glosario,fundamentos electronica, algebra lineal, matematicas discretas, Ingeniería, Sistemas, Unicoc">
           <title>PROYECTO</title>
           <link rel="icon" href="../img/walle.jpg" type="image/png" sizes="20x20"> 
           <link rel="stylesheet" href="css/estilos.css">
+          <script type="text/javascript" src="js/funciones_validacion.js"></script>
      </head>
      <body>
-          <header >
-               <img id="IMGENCABEZADO" src="img/img_inicio/img4.jpg" alt="image_del_encabezado" title="image_del_encabezado">
-               <h1 id="TITULO">DE LA INGENIERIA MECATRONICA A NUESTRAS MANOS</h1>
-               <div id="PRESENTACION_AUTORES">
-                    <h2>Por: KEVIN ALEXANDER CARO GARZON <br>Y JUAN DAVID RONCANCIO DIVANTOQUE</h2>
-               </div>
-          </header>
-          <nav>
+          <div class="contenedor">
+               <header >
+                    <img id="IMGENCABEZADO" src="img/img_inicio/img4.jpg" alt="image_del_encabezado" title="image_del_encabezado">
+                    <h1 id="TITULO">DE LA INGENIERIA MECATRONICA A NUESTRAS MANOS</h1>
+                    <div id="PRESENTACION_AUTORES">
+                         <h2>Por: KEVIN ALEXANDER CARO GARZON <br>Y JUAN DAVID RONCANCIO DIVANTOQUE</h2>
+                    </div>
+               </header>
+               <hr>
+               <nav>
+                    <ul id="barra_navegacion">
+                         <li id="PROYECTO"><a href="index.html" title="PAGINA DE DEL PROYECTO">PROYECTO</a></li>
+                         <li id="GFI"><a href="enlaces/GFI.HTML" title="GLOSARIO DE FUNDAMENTOS DE INGENIERIA">FUNDAMENTOS DE INGENIERIA</a></li>
+                         <li id="GPSA"><a href="enlaces/GPSA.HTML" title="GLOSARIO DE PENSAMIENTO SISTEMICO Y AUTOMATIZACION">PENSAMIENTO SISTEMICO Y AUTOMATIZACION</a></li>
+                         <li id="GPA"><a href="enlaces/GPA.HTML" title="GLOSARIO DE PENSAMIENTO ALGORITMICO">PENSAMIENTO ALGORITMICO</a></li>
+                         <li id="FORM"><a href="enlaces/FORM.HTML" title="FORMULARIO PAGUINA WEB">CONTACTANOS</a></li>
+                    </ul>
+               </nav>
+          </div>
+          <hr>
+          <div id="tabla-contenidos">
+               <h2>Contenido</h2>
                <ul>
-                    <li id="PROYECTO"><a href="index.html" title="PAGINA DE DEL PROYECTO">PROYECTO</a></li>
-                    <li id="GFI"><a href="enlaces/GFI.HTML" title="GLOSARIO DE FUNDAMENTOS DE INGENIERIA">FUNDAMENTOS DE INGENIERIA</a></li>
-                    <li id="GPSA"><a href="enlaces/GPSA.HTML" title="GLOSARIO DE PENSAMIENTO SISTEMICO Y AUTOMATIZACION">PENSAMIENTO SISTEMICO Y AUTOMATIZACION</a</li>
-                    <li id="GPA"><a href="enlaces/GPA.HTML" title="GLOSARIO DE PENSAMIENTO ALGORITMICO">PENSAMIENTO ALGORITMICO</a></li>
+                    <li><a href="#objetivos">OBJETIVOS</a></li>
+                    <li><a href="#justificacion">1. JUSTIFICACION</a>
+                    <ul>
+                         <li><a href="#situacion-problematica">1.1. Situación Problémica</a></li>
+                         <li><a href="#analisis-situacion-actual">1.2. Análisis de la situación actual</a>
+                         <ul>
+                         <li><a href="#Estudios-preliminares">1.2.1. Estudios preliminares</a></li>
+                         <li><a href="#Instrumentos-para-investigacion">1.2.2.	Instrumentos para investigación y levantamiento de información</a></li>
+                         <li><a href="#Encuesta">1.2.3.	Encuesta</a></li>
+                         <li><a href="#Conclusiones-encuesta">1.2.4.	Conclusiones de la encuesta</a></li>
+                         <li><a href="#Diagrama-Espina-de-Pescado">1.2.5.	Diagrama Espina de Pescado</a></li>
+                         </ul></li>
+                    </ul></li>
+                    <li><a href="#marco-teorico">2.	MARCO TEORICO CONCEPTUAL</a>
+                    <ul>
+                    <li><a href="#teoria-de-proyectos">2.1.Conceptos y terminología asociada con el proyecto</a></li>
+                    <li><a href="#normativa-actual">2.2. Normativa aplicable al proyecto</a></li>
+               </ul></li>
+                    <li><a href="#Disciplinas">3. DISCIPLINAS QUE INTERVIENEN EN EL PROYECTO</a></li>
+                    <li><a href="#propuesta">4. PROPUESTA</a></li>
+                    <li><a href="#Referencias-Bibliográficas">5. Referencias Bibliográficas</a>
                </ul>
-          </nav>
+          </div>
+          <main>
+               <section id="objetivos">
+                    <h2 class="Titulo1">Objetivos</h2>
+                    <p class="Parrafo1">El propósito de este proyecto tiene como objetivo diseñar un sistema de domótica integral para aplicarlo a casas rodantes, permitiendo el control y la automatización remota de servicios y dispositivos, para así poder mejorar la eficiencia energética, la seguridad y la comodidad de los usuarios. El diseño debe ser adaptable a una amplia gama de necesidades y entornos, esto incluyendo investigaciones de campo, viajes a lugares inhóspitos y rústicos, entre otros. Pretende ofrecer un medio de transporte y hospedaje cómodo, eficiente y sostenible, con tecnología avanzada que mejore la experiencia del usuario. Además, busca la personalización del producto para satisfacer especificaciones individuales de cada usuario y así mejorar la calidad de vida en diversas condiciones.</p>          
+                    <ul class="Parrafo1">
+                         <li>1. Automatización y Control:
+                              <br>❖	Implementar un sistema de control remoto para la iluminación, calefacción, ventilación y aire acondicionado (HVAC).
+                              <br>❖	Integrar todo tipo de sensores y temporizadores para optimizar el uso de energía.
+                              </li><br>
+                         <li>2. Eficiencia Energética:
+                              <br>❖	Instalar paneles solares y un sistema de gestión de energía para reducir el consumo de fuentes no renovables.
+                              <br>❖	Utilizar tecnologías de almacenamiento de energía para garantizar un suministro constante.
+                              </li><br>
+                         <li>3. Seguridad:
+                              <br>❖	Incorporar sistemas de seguridad como cámaras, sensores de puertas/ventanas y alarmas que se puedan monitorear y controlar remotamente.
+                              <br>❖	Implementar alertas y notificaciones en tiempo real en caso de intrusiones o eventos inusuales.
+                              </li><br>
+                         <li>4. Conectividad:
+                              <br>❖	Establecer un sistema de comunicación robusto que permita el control y monitoreo del sistema de domótica a través de dispositivos móviles y aplicaciones web.
+                              <br>❖	Asegurar la compatibilidad con otros dispositivos y servicios inteligentes.
+                              </li><br>
+                         <li>5. Comodidad y Personalización:
+                              <br>❖	Desarrollar una interfaz de usuario intuitiva para que los residentes puedan personalizar y ajustar los parámetros del sistema según sus preferencias.
+                              <br>❖	Incorporar funciones de automatización basada en el comportamiento y las rutinas diarias de los usuarios.
+                              </li><br>
+                    </ul>
+                    <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+               </section>
+               <section id="justificacion">
+                    <h2 class="Titulo1">1. Justificación</h2>
+                    <article id="situacion-problematica" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">1.1. Situacion problematica</h3>
+                         <p class="Parrafo1">Existen diferentes tipos de roles con múltiples dificultades relacionadas al transporte y el alojamiento simultáneamente, como es el caso de algunos agricultores, que tiene que afrontar dificultades del tipo; están ubicados en zonas montañosas y rústicas, por lo que su movilización es muy difícil y no siempre cuentan con recursos básicos (como el agua potable o la electricidad), sobre todo cuando se encargan de sus cultivos y/o ganados.</p>
+                         <p class="Parrafo1">Es común que las personas que realizan viajes sufran diferentes contratiempos, como las paradas excesivas por la duración del viaje, invertir en costosos hospedajes, preocuparse por los recursos, no contar con un lugar seguro y cómodo.</p>
+                         <p class="Parrafo1">En el turismo muchas veces el hospedaje y la comida terminan siendo gastos excesivos a largo plazo o inclusos son inaccesibles, también en algunos casos los turistas tienden a seguir un cronograma estricto y poco flexible o realizan actividades turísticas requieren recorrer grandes distancias desde el punto de alojamiento (hotel o zona de hospedaje), lo cual termina elevando los costos, no siendo lo más conveniente para realizar algunas de las actividades dispuestas en sus destinos.</p>
+                    </article>
+                    <article id="analisis-situacion-actual" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">1.2. Análisis de la situación actual</h3>
+                         <p class="Parrafo1">Los consumidores se enfrentan a la necesidad de trabajar, vivir y realizar actividades en áreas donde los caminos son limitados o inexistentes. Estas áreas a menudo presentan desafíos significativos, como acceso restringido a recursos básicos (agua, electricidad, y alimentos), condiciones climáticas adversas, y terrenos difíciles de manejar. Algunos roles, ya sean laborales o personales necesitan permanecer en áreas durante largos períodos de tiempo, lo que requiere una solución de alojamiento que sea práctica y resistente.</p>
+                         <p class="Parrafo1">Hace unas décadas atrás el uso de las casas rodantes se volvieron un estilo de vida bastante marcado en algunas culturas como la de Europa y la de Estados Unidos, hoy en día se ha vuelto a popularizar gracias a la expansión del mercado, su amplia adaptabilidad y su versatilidad, aparte cuenta con una gran variedad de aplicativos que van desde el turismo hasta la investigación científica.</p>
+                         <p class="Parrafo1">podemos justificar que desarrollar un sistema de domótica a las casas rodantes permitirá a los usuarios controlar y automatizar a distancia los servicios y dispositivos domésticos principales, lo que aumentará la eficiencia energética y mejorará la calidad de vida sin importar el ambiente en el que se encuentren. Por lo tanto, la solución propuesta será adaptable a una amplia gama de necesidades y entornos, lo que facilitará la movilidad y la estancia en diferentes lugares geográficos y condiciones climáticas. A su vez, la capacidad del sistema para adaptarse a las necesidades del usuario también mejorará significativamente la calidad de vida de los usuarios, lo que hace que las casas rodantes sean una alternativa más atractiva y sostenible para una variedad de aplicaciones, como el turismo y algunos sectores laborales.</p>
+                    </article>
+                    <article id="analisis-situacion-actual" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">1.2.1 Estudios preliminares</h3>
+                         <p class="Parrafo1"><b>HISTORIA:<br>
+                         LA CUNA DE LA CASA RODANTE:</b> Brown City la “Cuna de las casas rodantes”, al menos por el término Dodge Travco Motor home. Gran parte de la historia de Travco se ha perdido en el tiempo, pero la historia comenzó en Brown City en 1958, cuando el granjero local y fabricante de remolques a tiempo parcial Ray Frank sintió el deseo de diseñar y construir un hogar rodante lejos de casa para vacaciones familiares. El resultado, un vehículo revestido de aluminio que utilizaba un tren motriz Dodge.</p>
+                         <p class="Parrafo1">La creación de Frank no fue la primera casa rodante (muchas “auto caravanas” y “autocaravanas” la precedieron en las décadas anteriores), pero fue la primera en ser bautizada con el nombre de “Casa Rodante”, un término que Frank acuñó después de intentarlo por primera vez “Remolque Motorizado”, construyó a mano varias copias únicas para viajeros adinerados. No había dos ejemplos completamente iguales; de hecho 1960 se ofrecían diseños con motor delantero y trasero.</p>
+                         <div class="img_proyecto">
+                              <img id="img_proyecto" clase="img_proyecto" src="img/img_inicio/img5.jpg" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <p class="Parrafo1">En 1963 se produjo una revolución total en la gama Dodge Motorhome, eliminando las diferentes longitudes y la carrocería cuadrada de aluminio. Frank cambió a un único modelo de 27 pies, con un cuerpo moldeado de fibra de vidrio y envuelto sobre soportes tubulares de acero.</p>
+                         <p class="Parrafo1">Frank vendió el negocio de casas rodantes en 1965 a PRF Industries, que era propietaria de varias otras entidades de fabricación de vehículos recreativos, incluida una que luego suministrará interiores para GMC Motor home.  </p>
+                    </article>
+                    <article id="situacion-problematica" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">1.2.2. Instrumentos para investigación y levantamiento de información</h3>
+                         <p class="Parrafo1">1-Encuestas: Son una técnica clásica y efectiva para recopilar datos. Se pueden realizar por teléfono, por correo electrónico o en persona. <br>
+                              2-Entrevistas: Se pueden utilizar guías de entrevista para orientar al entrevistador. <br>
+                              3-Observación: Consiste en observar a los individuos en su entorno natural o en una situación que se produce de forma natural. <br>
+                              4-Cuestionarios: Son un conjunto de preguntas previamente elaboradas que proporcionan la información que se desea obtener. <br></p>
+                    </article>
+                    <article id="situacion-problematica" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">1.2.3. ENCUESTA</h3>
+                         <p class="Parrafo1">Mediante esta encuesta, se busca evaluar la tradicionalidad en los viajes, con el objetivo de desarrollar un proyecto innovador que promueva la libertad y el dinamismo a través del uso de casas rodantes en contextos laborales, educativos y de ocio. Los resultados obtenidos serán utilizados para evaluar la viabilidad del proyecto de Ingeniería "DOMUN CUM ALIS".</p>
+                         <div class="img_encuesta"1>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"2>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"3>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"4>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"5>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"6>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"7>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"8>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"9>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                         <div class="img_encuesta"10>
+                              <img id="img_encuesta" clase="img_encuesta" src="img/img_inicio/" alt="image_del_proyecto" title="image_del_proyecto">
+                         </div>
+                    </article>
+                    <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+               </section>
+               <section id="marco-teorico">
+                    <h2 class="Titulo1">2.	MARCO TEORICO</h2>
+                    <article id="teoria-de-proyectos" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">2.1.Conceptos y terminología asociada con el proyecto</h3>
+                         <p class="Parrafo2">Explicación detallada -.......</p>
+                    </article>
+                    <article id="normativa-actual" class="SubCapituloTema">
+                         <h3 class="Subtitulo1">2.2. Normativa aplicable al proyecto</h3>
+                         <p class="Parrafo2">Explicación detallada -.......</p>
+                    </article>
+                    <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+               </section>
+          </main>
      </body>
 </html>
